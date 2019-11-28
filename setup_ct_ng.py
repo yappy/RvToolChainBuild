@@ -36,4 +36,8 @@ print('=== make -j{} ==='.format(ncpu))
 subprocess.run(['make', '-j{}'.format(ncpu)], check=True)
 
 print()
+print('=== Show help ===')
+subprocess.run(['./ct-ng'], check=True)
+
+print()
 print('=== !!! OK !!! ===')
